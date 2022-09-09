@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway , Poppins;
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+}
+.Section-1{
+    background-color: #636C79;
+    height:100%;
+    border: 1px solid #636C79;
+}
+.logo {
+    height: 40px;
+}
+nav {
+    display: flex;
+    flex-flow: row;
+    margin: 0 50px;
+    margin-top: 50px;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.options {
+    padding: 10px;
+}
+.item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.talk {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 35px;
+    margin-left: 50px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 130px;
+    justify-content: space-between;
+}
+
+.crp1 .img1 {
+    height: 520px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.sec1div {
+    margin: 30px 90px 0 90px;
+    color: aliceblue;
+    font-size: 26px;
+    
+}
+.sec1div h1 {
+    font-weight: 600;
+}
+.sec1div p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.headerbt {
+    display: inline-flex;
+    padding: 5px;
+    background-color: #fff;
+    
+}
+.sec1div input{
+    border: none;
+    margin: 0 10px;
+    width: 250px;
+}
+.btn{
+    background-color: #8BB7A2;
+    color: #fff;
+    border: none;
+    padding: 13px 45px;
+    font-size: 18px;
+}
+
+.sec1div img {
+    height: 20px;
+    margin-top: 13px;
+}
+
+
+
+.Section-2{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items:center;
+}
+.Section-2 h3{
+    font-size: 35px;
+    width: 550px;
+    text-align: center;
+    font-weight: 600;
+    margin: 100px 0 50px 0;
+}
+.bullets {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;    
+    
+}
+.bullets div h2{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.bullets div p {
+    font-size: 15px;
+}
+
+.Section-2 img {
+    margin-top: 70px;
+    height: 600px;
+    width: 1100px;
+    object-fit: cover;
+}
+
+.middle {
+    font-size: 30px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.911);
+    margin-top: 100px;
+}
+
+
+
+.Section-3{
+    height:100%;
+    display:flex;
+    margin: 130px;
+    flex-direction: column;
+    
+}
+.start-heading {
+    display: flex;
+    justify-content: space-around;
+
+}
+.start-heading img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin: 50px;
+    
+}
+.head1 {
+    align-self: center;
+    width: 40%;
+}
+.head1 > * {
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    margin-bottom: 20px;
+
+}
+
+.subsec {
+    display:flex;
+    margin: 0 130px 70px;
+    justify-content:space-between;
+}
+.subsec h1 {
+    width: 300px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.subsec p {
+    width: 450px;
+    margin-right: 50px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+
+
+
+.Section-4{
+    height:100%;
+    margin: 50px 130px;
+}
+
+.imgbox {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.box > * {
+    margin:0 10px 10px 0;
+}
+.peopleimg{
+    height: 450px;
+}
+.box p {
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.7);
+    width: 300px;
+}
+.box h4 {
+    font-size: 20px;
+}
+.lastbtn{
+    margin: 0 40%;
+}
+
+.btn:hover {
+    border: 1px solid #24302ab7;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #10181D;
+    color: #fff;
+    
+}
+.fitem1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 130px 40px;
+}
+hr {
+    width: 81vw;
+    margin: auto;
+    height: 1px;
+    background-color: rgba(204, 204, 204, 0.753);
+    border: none;
+}.logo {
+    color: #fff;
+    margin-top: 10px;
+}
+.iconfooter i{
+    padding: 10px;
+    background: rgba(245, 245, 245, 0.233);
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.flow {
+    display: flex;
+    margin: 50px 130px;
+    justify-content: space-between;
+}
+.flow div h3 {
+    font-size: 20px;
+    font-weight:500;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.flow div a {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.603);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+}
