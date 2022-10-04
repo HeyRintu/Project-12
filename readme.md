@@ -5,19 +5,21 @@
 
 ## **Time taken :** ✍🏼
 
->### It took me about 1.5 hours to complete this project.
+>### It took me about 6 hours to complete this project.
 <br>
 
 ## **Live Demo**  💻 
 
->### _[**Live Link**](https://heyrintu-project14.netlify.app/)_
+>### _[**Live Link**](https://sage-frangipane-fd5ae3.netlify.app/)_
 <br>
 
 ## **Preview**🔎
+
+
 <br>
 
-## device view: 
-![mobile](./screenshot/allpc.jpg)
+## desktop view: 
+![mobile](./SS/DEKSTOP.jpg)
 
 <br>
 
@@ -25,7 +27,7 @@
 <br>
 
 ## Full screen view:
-![desktop](./screenshot/127.0.0.1_5500_index.html%20Desktop%20HD%202022-09-06%2022.58.33.jpg)
+![desktop](./SS/mobile.png)
 
 <br>
 
